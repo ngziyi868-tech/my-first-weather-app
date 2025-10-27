@@ -1,27 +1,93 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Weather App</title>
     <h1>Weather For All</h1>
-</head>
-<body>
+  </head>
+  <body>
     <header></header>
     <nav>
-        <ul>
-            <li>Home</li>
-            <li>News</li>
-            <li>Weather</li>
-            <li style="float: right">About</li>
-        </ul>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Weather</a></li>
+        <li style="float: right"><a href="#">About</a></li>
+      </ul>
     </nav>
+    <section>
+      <h1>Today's Weather</h1>
+        <ul style="list-style-type: none;">
+          <li>Date: Sunday, October 34th, 2021</li>
+          <li>Tempeture: 67°F</li>
+          <li>Feels like: 69°F</li>
+          <li>Humidinity: 13%</li>
+          <li>Wind Speed: N 9 mph</li>
+        </ul>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWW0rbIsudTvuj75NiJUOR3O-39F4nXixgiA&s" width = "auto" height="auto"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data0">67</span> <span>°F</span>
+      </span>
+    </section>
+    <section>
     <h2>5 Day Weather Forecast</h2>
-    <div class="flex-col"> <span id="Monday" class="col-head"></span> 
-        <img id="https://cdn-icons-png.flaticon.com/512/7084/7084486.png" class="weatherIcon" /> <span class="74"> <span id="data1"></span> <span>°F</span> </span> 
+    <div class="flex-col">
+      <span id="dayTitle1" class="col-head">Monday</span>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/3222/3222808.png" style="width: 25%; height: 25%"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data1">74</span> <span>°F</span>
+      </span>
+    </div>
+    <div class="flex-col">
+      <span id="dayTitle2" class="col-head">Tuesday</span>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/7084/7084512.png" style="width: 25%; height: 25%"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data2">108</span> <span>°F</span>
+      </span>
+    </div>
+    <div class="flex-col">
+      <span id="dayTitle3" class="col-head">Wednesday</span>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/7084/7084512.png" style="width: 25%; height: 25%"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data3">98</span> <span>°F</span>
+      </span>
+    </div>
+    <div class="flex-col">
+      <span id="dayTitle4" class="col-head">Thursday</span>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/7084/7084486.png" style="width: 25%; height: 25%"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data4">67</span> <span>°F</span>
+      </span>
+    </div>
+    <div class="flex-col">
+      <span id="dayTitle5" class="col-head">Friday</span>
+      <img
+        src="https://cdn-icons-png.flaticon.com/512/6635/6635320.png" style="width: 25%; height: 25%"
+        class="weatherIcon"
+      />
+      <span class="temp-data">
+        <span id="data5">45</span> <span>°F</span>
+      </span>
+      </section>
     </div>
     <main></main>
     <footer></footer>
     <body></body>
-</body>
+  </body>
 </html>
